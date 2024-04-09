@@ -1,0 +1,46 @@
+.page-header{
+    display: inline-flex;
+    width: 100%;
+    height: 15vh;
+    font-family: Tahoma;
+    font-size: 36px;
+    background-color: rgb(61, 61, 117);
+    color: white
+}
+
+.page-header-component{
+    width: 25%
+}
+
+.page-name{
+    text-align: left;
+}
+
+.navbar{
+    width: 48%;
+    font-size: 16px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.navbar-button{
+    color: white;
+}
+
+.page-header-special{
+    display: inline-flex;
+    font-size: 16px;
+    text-align: right;
+}
+
+.my-contact-information{
+    color: white;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.font-uppercase{
+    text-transform: uppercase;
+}
