@@ -25,6 +25,7 @@
 
 .navbar-button{
     color: white;
+    scroll-behavior: smooth;
 }
 
 .page-header-special{
@@ -35,6 +36,20 @@
 
 .my-contact-information{
     color: white;
+}
+
+.main-view{
+    display: inline-flex;
+    width: 100%;
+}
+
+.main-view-section{
+    width: 49%;
+}
+
+.main-view-left-section-header{
+    font-size: 400px;
+    text-align: right;
 }
 
 .font-bold{
