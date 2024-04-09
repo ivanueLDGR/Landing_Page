@@ -1,7 +1,7 @@
 .page-header{
     display: inline-flex;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     font-family: Tahoma;
     font-size: 36px;
     background-color: rgb(61, 61, 117);
@@ -40,16 +40,95 @@
 
 .main-view{
     display: inline-flex;
-    width: 100%;
+    width: 100vw;
+    height: 85vh;
 }
 
-.main-view-section{
-    width: 49%;
+.main-view-left-section{
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 100px; */
 }
 
-.main-view-left-section-header{
-    font-size: 400px;
-    text-align: right;
+.main-view-left-section-top-components{
+    font-size: 20px;
+    width: 200px;
+    margin-top: 10%;
+}
+
+.main-view-left-section-bottom-components{
+    height: 15%;
+    display: flex;
+    align-items: left;
+    margin-bottom: 10%;
+}
+
+.small-image{
+    width: auto;
+    height: 100%;
+}
+
+.main-view-left-section-text{
+    font: bold;
+    font-size: 40px;
+    width: 20%;
+}
+
+.main-view-right-section{
+    width: 69%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-view-right-section-header{
+    font-size: 80px;
+    overflow: visible;
+    width: 25%;
+}
+
+.main-view-right-section-big-image{
+    height: 80%;
+    width: auto;
+}
+
+.main-view-right-section-small-image{
+    height: 20%;
+    width: auto;
+}
+
+.main-view-right-section-fieldset{
+    height: 25%;
+    width: 8%;
+    display: grid;
+    /* grid-template-rows: 75% 25%; */
+    /* gap: 0; */
+    text-align: center;
+}
+
+.main-view-caller-header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 0;
+}
+
+.main-view-caller-title{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.main-view-caller-text{
+    margin: 0 0 ;
+}
+
+.main-view-caller-footer{
+    align-self: end;
+    margin: 4px 0;
 }
 
 .section-headers{
@@ -59,4 +138,12 @@
 
 .font-bold{
     font-weight: bold;
+}
+
+.font-uppercase{
+    text-transform: uppercase;
+}
+
+.font-italic{
+    font-style: italic;
 }
