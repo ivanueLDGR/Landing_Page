@@ -52,10 +52,11 @@
     text-align: right;
 }
 
-.font-bold{
+.section-headers{
     font-weight: bold;
+    text-transform: uppercase;
 }
 
-.font-uppercase{
-    text-transform: uppercase;
+.font-bold{
+    font-weight: bold;
 }
