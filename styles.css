@@ -16,6 +16,11 @@
     text-align: left;
 }
 
+.section-headers{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .navbar{
     width: 48%;
     font-size: 16px;
@@ -131,9 +136,41 @@
     margin: 4px 0;
 }
 
-.section-headers{
-    font-weight: bold;
-    text-transform: uppercase;
+.point-markers{
+    height: 50vh;
+    display: flex;
+}
+
+.point-markers-section{
+    width: 49%;
+    font-size: 20px;
+}
+
+.point-markers-left-section{
+    text-align: right;
+    padding-right: 10%;
+    margin-bottom: 10px;
+}
+
+.point-markers-header{
+    font-size: 70px;
+    width: 60%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.point-markers-right-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bullet-point-wraper{
+    width: 49%;
+    height: 49%;
+}
+
+.bullet-point{
+    width: 24%;
 }
 
 .font-bold{
