@@ -90,10 +90,15 @@
     justify-content: flex-start;
 }
 
+.main-view-right-section-header-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
 .main-view-right-section-header{
     font-size: 12vh;
     overflow: visible;
-    width: 25%;
 }
 
 .main-view-right-section-big-image{
@@ -198,18 +203,33 @@
 }
 
 .product-window{
-    font-size: 4.5vh;
+    font-size: 4vh;
 }
 
 .featured-products-figure{
-    width: 70%;
+    width: 60%;
     height: auto;
-    max-height: 30vh;
+    max-height: 25vh;
 }
 
 .product-window-caption-explanation{
-    font-size: 3vh;
+    font-size: 2.5vh;
     padding-left: 45%;
+}
+
+.featured-products-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.section-footer-button{
+    background-color: red;
+    color: white;
+    font-size: 4vh;
+    max-height: 15vh;
+    max-width: 28vh;
 }
 
 .font-bold{
