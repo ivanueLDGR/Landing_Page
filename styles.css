@@ -3,7 +3,7 @@
     width: 100%;
     height: 10vh;
     font-family: Tahoma;
-    font-size: 36px;
+    font-size: 5vh;
     background-color: rgb(61, 61, 117);
     color: white
 }
@@ -23,7 +23,7 @@
 
 .navbar{
     width: 48%;
-    font-size: 16px;
+    font-size: 2.6vh;
     text-align: center;
     justify-content: space-evenly;
 }
@@ -35,7 +35,7 @@
 
 .page-header-special{
     display: inline-flex;
-    font-size: 16px;
+    font-size: 2.6vh;
     text-align: right;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .main-view-left-section-top-components{
-    font-size: 20px;
+    font-size: 3vh;
     width: 200px;
     margin-top: 10%;
 }
@@ -78,8 +78,8 @@
 
 .main-view-left-section-text{
     font: bold;
-    font-size: 40px;
-    width: 20%;
+    font-size: 3vh;
+    width: 15%;
 }
 
 .main-view-right-section{
@@ -91,7 +91,7 @@
 }
 
 .main-view-right-section-header{
-    font-size: 80px;
+    font-size: 12vh;
     overflow: visible;
     width: 25%;
 }
@@ -143,7 +143,7 @@
 
 .point-markers-section{
     width: 49%;
-    font-size: 20px;
+    font-size: 3vh;
 }
 
 .point-markers-left-section{
@@ -153,8 +153,8 @@
 }
 
 .point-markers-header{
-    font-size: 70px;
-    width: 60%;
+    font-size: 10vh;
+    width: 75%;
     text-align: left;
     margin-top: 10px;
 }
@@ -171,6 +171,45 @@
 
 .bullet-point{
     width: 24%;
+}
+
+.featured-products{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 145vh;
+}
+  
+.featured-products-header{
+    font-size: 9vh;
+    width: 60%;
+    align-self: center;
+}
+
+.featured-products-all-figures-wrapper{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-products-figure-wrapper{
+    width: 33%;
+    text-align: left;
+}
+
+.product-window{
+    font-size: 4.5vh;
+}
+
+.featured-products-figure{
+    width: 70%;
+    height: auto;
+    max-height: 30vh;
+}
+
+.product-window-caption-explanation{
+    font-size: 3vh;
+    padding-left: 45%;
 }
 
 .font-bold{
