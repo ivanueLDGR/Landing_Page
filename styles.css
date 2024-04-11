@@ -142,16 +142,19 @@ body{
     display: flex;
     flex-direction: column;
     width: 25%;
+    align-self: flex-start;
 }
 
 .main-view-right-section-header{
     font-size: 12vh;
     overflow: visible;
+    z-index: 2;
 }
 
 .main-view-right-section-big-image{
     height: 80%;
     width: auto;
+    z-index: 1;
 }
 
 .main-view-right-section-small-image{
