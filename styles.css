@@ -1,15 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+}
+
+.color-1{
+    background-color: rgb(7, 7, 22);
+}
+
+.color-2{
+    background-color: rgb(43, 43, 61);
+}
+
 .page-header{
-    display: inline-flex;
+    display: flex;
     width: 100%;
     height: 10vh;
     font-family: Tahoma;
     font-size: 5vh;
-    background-color: rgb(61, 61, 117);
+    align-items: center;
+    justify-content: space-between;
     color: white
-}
-
-body{
-    color: gray;
 }
 
 .page-header-component{
@@ -18,33 +31,64 @@ body{
 
 .page-name{
     text-align: left;
+    padding-left: 4vh;
 }
 
-.section-headers{
-    font-weight: bold;
-    text-transform: uppercase;
+.navbar-wrapper{
+    text-align: center;
+    align-items: center;
 }
 
 .navbar{
     width: 48%;
-    font-size: 2.6vh;
     text-align: center;
-    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2.6vh;
 }
 
 .navbar-button{
+    padding: 2vh 2%;
     color: white;
-    scroll-behavior: smooth;
+}
+
+.navbar-button:hover{
+    background-color: #ddd;
+    color: black;
 }
 
 .page-header-special{
-    display: inline-flex;
-    font-size: 2.6vh;
     text-align: right;
+    font-size: 2.6vh;
+}
+
+.page-header-component-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.6vh;
+
+}
+
+.page-header-special-vertical-line{
+    border-left: 2px solid green;
+    height: 4vh
+}
+
+.page-header-language-selector{
+    font-size: 2.6vh;
+    padding: 0 0;
+    margin: 2vh 2%;
 }
 
 .my-contact-information{
-    color: white;
+    width: 14vh;
+    display: inline-block;
+    text-align: right;
+    padding: 2vh 2%;
 }
 
 .main-view{
@@ -113,15 +157,17 @@ body{
 .main-view-right-section-small-image{
     height: 20%;
     width: auto;
+    align-self: flex-start;
+    margin-top: 10vh;
 }
 
 .main-view-right-section-fieldset{
     height: 25%;
     width: 8%;
     display: grid;
-    /* grid-template-rows: 75% 25%; */
-    /* gap: 0; */
     text-align: center;
+    align-self: flex-end;
+    margin-bottom: 13vh;
 }
 
 .main-view-caller-header{
@@ -148,6 +194,7 @@ body{
 .point-markers{
     height: 50vh;
     display: flex;
+
 }
 
 .point-markers-section{
@@ -313,6 +360,12 @@ body{
     font-size: 4vh;
     max-height: 15vh;
     max-width: 28vh;
+    border: none;
+}
+
+.section-headers{
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .font-bold{
