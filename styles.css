@@ -8,6 +8,10 @@
     color: white
 }
 
+body{
+    color: gray;
+}
+
 .page-header-component{
     width: 25%
 }
@@ -257,6 +261,50 @@
     width: 25%;
     min-width: 150px;
     margin-top: 4px;
+}
+
+.talk-to-us{
+    height: 95vh;
+    display: block;
+    text-align: center;
+}
+
+.talk-to-us-header{
+    font-size: 8vh;
+    width: 40%;
+    margin: 8vh auto;
+}
+
+.artist-image-wrapper{
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.artist-image{
+    height: 53vh;
+    width: 100%;
+}
+
+.artist-name{
+    font-size: 4vh;
+    position: relative;
+    bottom: 10vh;
+    margin: 0 10%;
+    text-align: left;
+}
+
+.artist-experience{
+    font-size: 2vh;
+    position: relative;
+    bottom: 9vh;
+    margin: 0 10%;
+    text-align: left;
+}
+
+.talk-to-us-footer{
+    height: 18vh;
+    margin: 0 0;
 }
 
 .section-footer-button{
