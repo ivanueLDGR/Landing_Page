@@ -1,0 +1,42 @@
+.featured-products{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 145vh;
+}
+  
+.featured-products__header{
+    font-size: 9vh;
+    width: 60%;
+    align-self: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.featured-products__all-figures-wrapper{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-products__figure-wrapper{
+    width: 33%;
+    text-align: left;
+}
+
+.featured-products__figure{
+    width: 60%;
+    height: auto;
+    max-height: 25vh;
+}
+
+.featured-products__figure-captions{
+    font-size: 4vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.featured-products__caption-explanation{
+    font-size: 2.5vh;
+    padding-left: 45%;
+}

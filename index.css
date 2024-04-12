@@ -2,7 +2,8 @@
 @import url('./blocks/root.css');
 @import url('./blocks/main-view.css');
 @import url('./blocks/footer-buttons.css');
-@import url(./blocks/point-markers.css);
+@import url('./blocks/point-markers.css');
+@import url('./blocks/featured-products.css');
 
 html{
     scroll-behavior: smooth;
@@ -18,54 +19,6 @@ body{
 
 .color-2{
     background-color: rgb(43, 43, 61);
-}
-
-.featured-products{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 145vh;
-}
-  
-.featured-products-header{
-    font-size: 9vh;
-    width: 60%;
-    align-self: center;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.featured-products-all-figures-wrapper{
-    width: 99%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.featured-products-figure-wrapper{
-    width: 33%;
-    text-align: left;
-}
-
-.product-window{
-    font-size: 4vh;
-}
-
-.featured-products-figure{
-    width: 60%;
-    height: auto;
-    max-height: 25vh;
-}
-
-.product-window-caption-explanation{
-    font-size: 2.5vh;
-    padding-left: 45%;
-}
-
-.featured-products-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10vh;
 }
 
 .process-explanation{
