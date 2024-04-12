@@ -4,6 +4,7 @@
 @import url('./blocks/footer-buttons.css');
 @import url('./blocks/point-markers.css');
 @import url('./blocks/featured-products.css');
+@import url('./blocks/process-explanation.css');
 
 html{
     scroll-behavior: smooth;
@@ -19,43 +20,6 @@ body{
 
 .color-2{
     background-color: rgb(43, 43, 61);
-}
-
-.process-explanation{
-    display: flex;
-    height: 80vh;
-}
-
-.process-explanation-half{
-    width: 51%;
-    height: 100%;
-}
-
-.process-explanation-wrapper{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin: 3vh;
-}
-
-.process-explanation-header{
-    font-size: 8vh;
-    margin: 0;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.process-steps{
-    margin-top: 4vh;
-    font-size: 4vh;
-    margin-left: 8vh;
-}
-
-.process-steps-comments{
-    font-size: 2vh;
-    width: 25%;
-    min-width: 150px;
-    margin-top: 4px;
 }
 
 .talk-to-us{

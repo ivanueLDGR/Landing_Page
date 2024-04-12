@@ -1,0 +1,40 @@
+.process-explanation{
+    display: flex;
+    height: 80vh;
+}
+
+.process-explanation__left-wrapper{
+    width: 51%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 3vh;
+}
+
+.process-explanation__header{
+    font-size: 8vh;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.process-explanation__steps{
+    margin-top: 4vh;
+    font-size: 4vh;
+    margin-left: 8vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.process-explanation__step-comments{
+    font-size: 2vh;
+    width: 25%;
+    min-width: 150px;
+    margin-top: 4px;
+}
+
+.process-explanation__image{
+    width: 51%;
+    height: 100%;
+}
