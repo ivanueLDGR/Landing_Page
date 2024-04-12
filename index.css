@@ -1,5 +1,7 @@
 @import url('./blocks/page-header.css');
 @import url('./blocks/root.css');
+@import url('./blocks/main-view.css');
+@import url('./blocks/footer-buttons.css');
 
 html{
     scroll-behavior: smooth;
@@ -17,113 +19,9 @@ body{
     background-color: rgb(43, 43, 61);
 }
 
-.main-view{
-    display: inline-flex;
-    width: 100vw;
-    height: 85vh;
-}
-
-.main-view-left-section{
-    width: 30%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* margin-top: 100px; */
-}
-
-.main-view-left-section-top-components{
-    font-size: 3vh;
-    width: 200px;
-    margin-top: 10%;
-}
-
-.main-view-left-section-bottom-components{
-    height: 15%;
-    display: flex;
-    align-items: left;
-    margin-bottom: 10%;
-}
-
-.small-image{
-    width: auto;
-    height: 100%;
-}
-
-.main-view-left-section-text{
-    font: bold;
-    font-size: 3vh;
-    width: 15%;
-}
-
-.main-view-right-section{
-    width: 69%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.main-view-right-section-header-wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    align-self: flex-start;
-}
-
-.main-view-right-section-header{
-    font-size: 12vh;
-    overflow: visible;
-    z-index: 2;
-}
-
-.main-view-right-section-big-image{
-    height: 80%;
-    width: auto;
-    z-index: 1;
-}
-
-.main-view-right-section-small-image{
-    height: 20%;
-    width: auto;
-    align-self: flex-start;
-    margin-top: 10vh;
-}
-
-.main-view-right-section-fieldset{
-    height: 25%;
-    width: 8%;
-    display: grid;
-    text-align: center;
-    align-self: flex-end;
-    margin-bottom: 13vh;
-}
-
-.main-view-caller-header{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin: 0 0;
-}
-
-.main-view-caller-title{
-    margin-top: 8px;
-    margin-bottom: 0;
-}
-
-.main-view-caller-text{
-    margin: 0 0 ;
-}
-
-.main-view-caller-footer{
-    align-self: end;
-    margin: 4px 0;
-}
-
 .point-markers{
     height: 50vh;
     display: flex;
-
 }
 
 .point-markers-section{
@@ -142,6 +40,8 @@ body{
     width: 75%;
     text-align: left;
     margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .point-markers-right-section{
@@ -169,6 +69,8 @@ body{
     font-size: 9vh;
     width: 60%;
     align-self: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .featured-products-all-figures-wrapper{
@@ -224,6 +126,8 @@ body{
 .process-explanation-header{
     font-size: 8vh;
     margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .process-steps{
@@ -249,6 +153,8 @@ body{
     font-size: 8vh;
     width: 40%;
     margin: 8vh auto;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .artist-image-wrapper{
@@ -281,20 +187,6 @@ body{
 .talk-to-us-footer{
     height: 18vh;
     margin: 0 0;
-}
-
-.section-footer-button{
-    background-color: red;
-    color: white;
-    font-size: 4vh;
-    max-height: 15vh;
-    max-width: 28vh;
-    border: none;
-}
-
-.section-headers{
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 .font-bold{
