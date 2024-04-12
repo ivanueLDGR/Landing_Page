@@ -1,3 +1,6 @@
+@import url('./blocks/page-header.css');
+@import url('./blocks/root.css');
+
 html{
     scroll-behavior: smooth;
 }
@@ -12,83 +15,6 @@ body{
 
 .color-2{
     background-color: rgb(43, 43, 61);
-}
-
-.page-header{
-    display: flex;
-    width: 100%;
-    height: 10vh;
-    font-family: Tahoma;
-    font-size: 5vh;
-    align-items: center;
-    justify-content: space-between;
-    color: white
-}
-
-.page-header-component{
-    width: 25%
-}
-
-.page-name{
-    text-align: left;
-    padding-left: 4vh;
-}
-
-.navbar-wrapper{
-    text-align: center;
-    align-items: center;
-}
-
-.navbar{
-    width: 48%;
-    text-align: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 2.6vh;
-}
-
-.navbar-button{
-    padding: 2vh 2%;
-    color: white;
-}
-
-.navbar-button:hover{
-    background-color: #ddd;
-    color: black;
-}
-
-.page-header-special{
-    text-align: right;
-    font-size: 2.6vh;
-}
-
-.page-header-component-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 2.6vh;
-
-}
-
-.page-header-special-vertical-line{
-    border-left: 2px solid green;
-    height: 4vh
-}
-
-.page-header-language-selector{
-    font-size: 2.6vh;
-    padding: 0 0;
-    margin: 2vh 2%;
-}
-
-.my-contact-information{
-    width: 14vh;
-    display: inline-block;
-    text-align: right;
-    padding: 2vh 2%;
 }
 
 .main-view{
@@ -378,6 +304,12 @@ body{
 .font-uppercase{
     text-transform: uppercase;
 }
+
+/* .
+text-transform: uppercase;
+font-weight: bold;
+. */
+
 
 .font-italic{
     font-style: italic;
