@@ -2,6 +2,7 @@
 @import url('./blocks/root.css');
 @import url('./blocks/main-view.css');
 @import url('./blocks/footer-buttons.css');
+@import url(./blocks/point-markers.css);
 
 html{
     scroll-behavior: smooth;
@@ -17,45 +18,6 @@ body{
 
 .color-2{
     background-color: rgb(43, 43, 61);
-}
-
-.point-markers{
-    height: 50vh;
-    display: flex;
-}
-
-.point-markers-section{
-    width: 51%;
-    font-size: 3vh;
-}
-
-.point-markers-left-section{
-    text-align: right;
-    padding-right: 10%;
-    margin-bottom: 10px;
-}
-
-.point-markers-header{
-    font-size: 10vh;
-    width: 75%;
-    text-align: left;
-    margin-top: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.point-markers-right-section{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.bullet-point-wraper{
-    width: 49%;
-    height: 49%;
-}
-
-.bullet-point{
-    width: 24%;
 }
 
 .featured-products{

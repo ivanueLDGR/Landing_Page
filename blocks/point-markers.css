@@ -1,0 +1,33 @@
+.point-markers{
+    height: 50vh;
+    display: flex;
+}
+
+.point-markers__left-wrapper{
+    width: 51%;
+    font-size: 3vh;
+    text-align: right;
+    padding-right: 10%;
+    margin-bottom: 10px;
+}
+
+.point-markers__bullet-points-wrapper{
+    width: 51%;
+    font-size: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.point-markers__header{
+    font-size: 10vh;
+    width: 75%;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.point-markers__bullet-point{
+    width: 24%;
+    height: 49%;
+}
