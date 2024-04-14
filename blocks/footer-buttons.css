@@ -16,3 +16,15 @@
     max-width: 28vh;
     border: none;
 }
+
+.talk-to-us__footer-button{
+    height: 10vh;
+    background-color: red;
+    color: white;
+    font-size: 4vh;
+    max-height: 15vh;
+    max-width: 28vh;
+    border: none;
+    height: 18vh;
+    margin: 0 0;
+}

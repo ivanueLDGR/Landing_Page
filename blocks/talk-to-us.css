@@ -1,0 +1,44 @@
+.talk-to-us{
+    height: 95vh;
+    display: block;
+    text-align: center;
+    background-color: rgb(7, 7, 22)
+}
+
+.talk-to-us__header{
+    font-size: 8vh;
+    width: 40%;
+    margin: 8vh auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.talk-to-us__artist-image-wrapper{
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.talk-to-us__artist-image{
+    height: 53vh;
+    width: 100%;
+}
+
+.talk-to-us__artist-name{
+    font-size: 4vh;
+    position: relative;
+    bottom: 10vh;
+    margin: 0 10%;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.talk-to-us__artist-experience{
+    font-size: 2vh;
+    position: relative;
+    bottom: 9vh;
+    margin: 0 10%;
+    text-align: left;
+}

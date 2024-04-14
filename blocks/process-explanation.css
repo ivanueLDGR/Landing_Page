@@ -1,6 +1,7 @@
 .process-explanation{
     display: flex;
     height: 80vh;
+    color: white;
 }
 
 .process-explanation__left-wrapper{
@@ -12,11 +13,16 @@
     margin: 3vh;
 }
 
+.process-explanation_background-color_pattern-2{
+    background-color: rgb(43, 43, 61);
+}
+
 .process-explanation__header{
     font-size: 8vh;
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
+    color: white;
 }
 
 .process-explanation__steps{
@@ -25,6 +31,7 @@
     margin-left: 8vh;
     text-transform: uppercase;
     font-weight: bold;
+    color: white;
 }
 
 .process-explanation__step-comments{
@@ -32,6 +39,7 @@
     width: 25%;
     min-width: 150px;
     margin-top: 4px;
+    color: white;
 }
 
 .process-explanation__image{

@@ -4,4 +4,6 @@
     padding: 0;
     display: block;
     list-style: none;
+    scroll-behavior: smooth;
+
 }

@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     height: 145vh;
+    background-color: rgb(7, 7, 22)
 }
   
 .featured-products__header{
@@ -11,6 +12,7 @@
     align-self: center;
     font-weight: bold;
     text-transform: uppercase;
+    color: white;
 }
 
 .featured-products__all-figures-wrapper{
@@ -22,6 +24,11 @@
 .featured-products__figure-wrapper{
     width: 33%;
     text-align: left;
+    background-color: rgb(7, 7, 22)
+}
+
+.featured-products__figure-wrapper_background-color_pattern-2{
+    background-color: rgb(43, 43, 61)
 }
 
 .featured-products__figure{
@@ -34,9 +41,11 @@
     font-size: 4vh;
     text-transform: uppercase;
     font-weight: bold;
+    color: white;
 }
 
 .featured-products__caption-explanation{
     font-size: 2.5vh;
     padding-left: 45%;
+    color: white;
 }
