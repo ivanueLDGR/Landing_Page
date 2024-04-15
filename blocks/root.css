@@ -5,5 +5,12 @@
     display: block;
     list-style: none;
     scroll-behavior: smooth;
+}
 
+.title{
+    display: none;
+}
+
+.body{
+    max-width: 1200px;
 }
