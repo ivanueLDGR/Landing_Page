@@ -1,20 +1,22 @@
 .main-view__footer-button{
     background-color: red;
     color: white;
-    font-size: 4vh;
-    max-height: 15vh;
-    max-width: 28vh;
+    font-size: 20px;
+    height: 60px;
+    width: 70%;
+    margin-top: 40px;
     border: none;
 }
 
 .featured-products__footer-button{
-    height: 10vh;
     background-color: red;
     color: white;
-    font-size: 4vh;
-    max-height: 15vh;
-    max-width: 28vh;
+    font-size: 20px;
+    height: 45px;
+    width: 15%;
     border: none;
+    align-self: center;
+    margin: 60px;
 }
 
 .talk-to-us__footer-button{
