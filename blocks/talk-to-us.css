@@ -27,12 +27,18 @@
 }
 
 .talk-to-us__artist-image{
-    /* position: absolute; */
+    object-fit: cover;
+    height: 100%;
     width: 100%;
     aspect-ratio: 9/16;
-    left: 50px;
-    bottom: 50%;
-    overflow: hidden;
+}
+
+.talk-to-us__artist-image_object-position_45{
+    object-position: 45%;
+}
+
+.talk-to-us__artist-image_object-position_30{
+    object-position: 30%;
 }
 
 .talk-to-us__artist-name{
