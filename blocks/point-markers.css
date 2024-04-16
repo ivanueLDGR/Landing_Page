@@ -1,5 +1,4 @@
 .point-markers{
-    /* height: 50vh; */
     display: flex;
     background-color: rgb(43, 43, 61);
 }
@@ -33,7 +32,6 @@
 }
 
 .point-markers__bullet-points-list{
-    list-style: default;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
