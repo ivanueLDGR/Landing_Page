@@ -12,8 +12,7 @@
 }
 
 .process-explanation_background-color_pattern-2{
-    /* background-color: rgb(43, 43, 61); */
-    background-color: green;
+    background-color: rgb(43, 43, 61);
 }
 
 .process-explanation__header{
@@ -24,12 +23,9 @@
     color: white;
 }
 
-.process-explanation__ordered-list{
-    list-style: disc;
-    margin: 100px 100px;
-}
-
 .process-explanation__steps{
+    list-style: decimal;
+
     margin-top: 40px;
     font-size: 20px;
     margin-left: 8vh;

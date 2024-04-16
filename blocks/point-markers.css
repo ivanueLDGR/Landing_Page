@@ -5,7 +5,7 @@
 }
 
 .point-markers__left-wrapper{
-    width: 49%;
+    width: 90%;
     margin-bottom: 10px;
     margin-left: 4%;
     display: flex;
@@ -31,8 +31,8 @@
     align-self: flex-end;
 }
 
-.point-markers__bullet-points-wrapper{
-    width: 51%;
+.point-markers__bullet-points-list{
+    list-style: default;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
