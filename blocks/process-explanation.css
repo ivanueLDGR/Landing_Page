@@ -16,30 +16,28 @@
 }
 
 .process-explanation__header{
-    font-size: 8vh;
-    margin: 0;
+    font-size: 56px;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
+    margin-bottom: 20px;
 }
 
 .process-explanation__steps{
     list-style: decimal;
-
-    margin-top: 40px;
-    font-size: 20px;
-    margin-left: 8vh;
-    /* padding-left: 40px; */
+    margin: 20px;
+    font-size: 30px;
+    margin-left: 80px;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
 }
 
 .process-explanation__step-comments{
-    font-size: 2vh;
-    width: 25%;
+    font-size: 16px;
+    width: 40%;
     min-width: 150px;
-    margin-top: 4px;
+    margin-left: 80px;
     color: white;
 }
 
