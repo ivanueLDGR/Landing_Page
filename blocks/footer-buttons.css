@@ -20,13 +20,11 @@
 }
 
 .talk-to-us__footer-button{
-    height: 10vh;
+    height: 40px;
     background-color: red;
     color: white;
-    font-size: 4vh;
-    max-height: 15vh;
-    max-width: 28vh;
+    font-size: 20px;
+    width: 15%;
     border: none;
-    height: 18vh;
-    margin: 0 0;
+    margin: 40px;
 }
