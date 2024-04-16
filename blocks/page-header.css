@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     height: 60px;
-    font-family: Tahoma;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(7, 7, 22)
@@ -18,28 +17,25 @@
 
 .page-header__navbar{
     font-size: 20px;
-    overflow: hidden;
-    list-style-type: none;
 }
 
 .page-header__navbar-button{
-    padding: 5px 5px;
     float: left;
     margin: 0 15px;
 }
 
-.page-header__navbar-button:hover{
-    background-color: #ddd;
-    color: black;
-}
-
 .page-header__navbar-link{
+    padding: 5px 5px;
     text-decoration: none;
-    color: white;
 }
 
 .page-header__navbar-link:visited{
     color: white;
+}
+
+.page-header__navbar-link:hover{
+    background-color: #ddd;
+    color: black
 }
 
 .page-header__specials-wrapper{
@@ -63,7 +59,6 @@
 
 .page-header__my-contact{
     font-size: 20px;
-    color: white;
     display: inline-block;
     white-space: nowrap;
 }
@@ -71,4 +66,5 @@
 .page-header__my-contact-link{
     padding: 2px 2%;
     color: white;
+    text-decoration: none;
 }
