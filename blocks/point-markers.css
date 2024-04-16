@@ -26,9 +26,10 @@
 .point-markers__header-explanation{
     font-size: 20px;
     color: white;
-    width: 45%;
+    width: 75%;
     text-align: left;
     align-self: flex-end;
+    margin-bottom: 30px;
 }
 
 .point-markers__bullet-points-list{
@@ -47,4 +48,8 @@
     height: 49%;
     color: white;
     padding-right: 20%;
+}
+
+.point-markers__bullet-point_padding-right-15{
+    padding-right: 15%;
 }
