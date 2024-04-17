@@ -1,53 +1,55 @@
-.point-markers{
-    display: flex;
-    background-color: rgb(43, 43, 61);
-}
-
-.point-markers__left-wrapper{
-    width: 90%;
-    margin-bottom: 10px;
-    margin-left: 4%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.point-markers__header{
-    font-size: 62px;
-    text-align: left;
-    margin-top: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    width: 70%;
-}
-
-.point-markers__header-explanation{
-    font-size: 20px;
-    color: white;
-    width: 75%;
-    text-align: left;
-    align-self: flex-end;
-    margin-bottom: 30px;
-}
-
-.point-markers__bullet-points-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
-    margin-right: 4%;
-    padding-left: 6%;
-}
-
-.point-markers__bullet-point{
-    font-size: 30px;
-    width: 49%; 
-    height: 49%;
-    color: white;
-    padding-right: 20%;
-}
-
-.point-markers__bullet-point_padding-right-15{
-    padding-right: 15%;
+@media screen and (min-width: 769px){
+    .point-markers{
+        display: flex;
+        background-color: rgb(43, 43, 61);
+    }
+    
+    .point-markers__left-wrapper{
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .point-markers__header{
+        font-size: 62px;
+        text-align: left;
+        margin-top: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        width: 70%;
+    }
+    
+    .point-markers__header-explanation{
+        font-size: 20px;
+        color: white;
+        width: 75%;
+        text-align: left;
+        align-self: flex-end;
+        margin-bottom: 30px;
+    }
+    
+    .point-markers__bullet-points-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        margin-right: 4%;
+        padding-left: 6%;
+    }
+    
+    .point-markers__bullet-point{
+        font-size: 26px;
+        width: 49%; 
+        height: 49%;
+        color: white;
+        padding-right: 20%;
+    }
+    
+    .point-markers__bullet-point_padding-right-15{
+        padding-right: 15%;
+    }
 }

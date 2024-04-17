@@ -1,71 +1,73 @@
-.talk-to-us{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(7, 7, 22)
-}
-
-.talk-to-us__header{
-    font-size: 50px;
-    width: 60%;
-    padding: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-}
-
-.talk-to-us__artists-list{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 4%;
-}
-
-.talk-to-us__artist-wrapper{
-    width: 30%;
-    position: relative;
-}
-
-.talk-to-us__artist-image{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    aspect-ratio: 9/16;
-}
-
-.talk-to-us__artist-image_object-position_45{
-    object-position: 45%;
-}
-
-.talk-to-us__artist-image_object-position_30{
-    object-position: 30%;
-}
-
-.talk-to-us__artist-name{
-    font-size: 30px;
-    position: absolute;
-    bottom: 100px;
-    margin-left:10%;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    z-index: 1;
-}
-
-.talk-to-us__artist-experience{
-    font-size: 16px;
-    position: absolute;
-    bottom: 60px;
-    margin-left: 10%;
-    color: white;
-    z-index: 1;
-}
-
-.talk-to-us__cover-effect{
-    position: absolute;
-    height: 30%;
-    width: 100%;
-    bottom: 0;
-    background-color: rgba(7, 7, 22, 0.6)
+@media screen and (min-width: 769px){
+    .talk-to-us{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(7, 7, 22)
+    }
+    
+    .talk-to-us__header{
+        font-size: 50px;
+        width: 60%;
+        padding: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    .talk-to-us__artists-list{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 4%;
+    }
+    
+    .talk-to-us__artist-wrapper{
+        width: 30%;
+        position: relative;
+    }
+    
+    .talk-to-us__artist-image{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        aspect-ratio: 9/16;
+    }
+    
+    .talk-to-us__artist-image_object-position_45{
+        object-position: 45%;
+    }
+    
+    .talk-to-us__artist-image_object-position_30{
+        object-position: 30%;
+    }
+    
+    .talk-to-us__artist-name{
+        font-size: 30px;
+        position: absolute;
+        bottom: 100px;
+        margin-left:10%;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+    }
+    
+    .talk-to-us__artist-experience{
+        font-size: 16px;
+        position: absolute;
+        bottom: 60px;
+        margin-left: 10%;
+        color: white;
+        z-index: 1;
+    }
+    
+    .talk-to-us__cover-effect{
+        position: absolute;
+        height: 30%;
+        width: 100%;
+        bottom: 0;
+        background-color: rgba(7, 7, 22, 0.6)
+    }
 }

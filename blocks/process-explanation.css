@@ -1,47 +1,57 @@
-.process-explanation{
-    display: flex;
-}
-
-.process-explanation__left-wrapper{
-    width: 49%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin: 30px 4%;
-}
-
-.process-explanation_background-color_pattern-2{
-    background-color: rgb(43, 43, 61);
-}
-
-.process-explanation__header{
-    font-size: 56px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.process-explanation__steps{
-    list-style: decimal;
-    margin: 20px;
-    font-size: 30px;
-    margin-left: 80px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-}
-
-.process-explanation__step-comments{
-    font-size: 16px;
-    width: 40%;
-    min-width: 150px;
-    margin-left: 80px;
-    color: white;
-}
-
-.process-explanation__image{
-    width: 51%;
-    height: 100%;
+@media screen and (min-width: 769px){
+    .process-explanation{
+        display: flex;
+    }
+    
+    .process-explanation__left-wrapper{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 30px 0;
+        margin-left: 4%;
+        padding-right: 10px;
+    }
+    
+    .process-explanation_background-color_pattern-2{
+        background-color: rgb(43, 43, 61);
+    }
+    
+    .process-explanation__header{
+        font-size: 52px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .process-explanation__steps{
+        list-style: decimal;
+        margin: 20px;
+        font-size: 30px;
+        margin-left: 80px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .process-explanation__step-comments{
+        font-size: 16px;
+        width: 40%;
+        min-width: 150px;
+        margin-left: 80px;
+        color: white;
+    }
+    
+    .process-explanation__right-wrapper{
+        margin-right: 4%;
+        width: 37%;
+        height: auto;
+    }
+    
+    .process-explanation__image{
+        width: 100%;
+        object-fit: cover;
+    }
 }
