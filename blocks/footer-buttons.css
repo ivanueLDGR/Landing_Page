@@ -30,3 +30,36 @@
         margin: 40px;
     }
 }
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .main-view__footer-button{
+        background-color: red;
+        color: white;
+        font-size: 8px;
+        height: 36px;
+        width: 80%;
+        margin-top: 24px;
+        border: none;
+    }
+    
+    .featured-products__footer-button{
+        background-color: red;
+        color: white;
+        font-size: 10px;
+        height: 27px;
+        width: 15%;
+        border: none;
+        align-self: center;
+        margin: 36px;
+    }
+    
+    .talk-to-us__footer-button{
+        height: 24px;
+        background-color: red;
+        color: white;
+        font-size: 10px;
+        width: 15%;
+        border: none;
+        margin: 24px;
+    }
+}
