@@ -138,7 +138,7 @@
 
 @media screen and (max-width: 768px) and (min-width: 481px){
     .main-view{
-        display: inline-flex;
+        display: flex;
         width: 100%;
         background-color: rgb(7, 7, 22);
     }
@@ -149,6 +149,7 @@
         flex-direction: column;
         justify-content: space-between;
         padding-left: 4%;
+        margin-right: 4%;
     }
     
     .main-view__left-section-top-components{
@@ -160,14 +161,16 @@
     
     .main-view__left-section-bottom-components{
         height: 15%;
+        width: 100%;
         display: flex;
         margin-bottom: 25%;
         color: white;
     }
     
     .main-view__left-section-small-image{
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
     }
     
     .main-view__left-section-text{
@@ -180,6 +183,7 @@
     
     .main-view__right-wrapper{
         width: 60%;
+        height: 100%;
         padding-right: 4%;
         display: flex;
         flex-wrap: wrap;
@@ -205,21 +209,19 @@
     }
     
     .main-view__main-image{
-        aspect-ratio: 6/13;
-        width: 60%;
+        width: 180px;
+        aspect-ratio: 6 / 13;
         height: auto;
         z-index: 1;
         padding-top: 4%;
-        object-fit: none;
+        object-fit: contain;
+        align-self: flex-start;
     }
     
     .main-view__fieldset{
-        /* height: 35%; */
-        width: 20%;
         display: grid;
         text-align: center;
-        /* align-self: flex-end; */
-        margin-bottom: 18%;
+        margin-bottom: 13%;
     }
     
     .main-view__fieldset-headder{
@@ -246,7 +248,7 @@
         color: red;
     }
     
-    .main-view__fieldset-subtitle_font-family_gabrielle{
+    .main-view__fieldset-subtitle_font-family_brush_script{
         font-family: brush script;
     }
     
@@ -265,10 +267,9 @@
     }
     
     .main-view__right-section-small-image{
-        height: 10%;
+        width: 20%;
         aspect-ratio: 1/1;
-        align-self: flex-end;
-        margin-top: 10%;
+        align-self: center;
         border-radius: 50%;
     }
 }
