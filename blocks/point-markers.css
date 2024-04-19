@@ -109,3 +109,56 @@
         padding-right: 15%;
     }
 }
+
+@media screen and (max-width: 480px){
+    .point-markers{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(43, 43, 61);
+    }
+    
+    .point-markers__left-wrapper{
+        width: 100%;
+        margin-bottom: 6px;
+        padding: 0 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .point-markers__header{
+        font-size: 26px;
+        text-align: left;
+        margin-top: 6px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+    
+    .point-markers__header-explanation{
+        font-size: 12px;
+        color: white;
+        width: 75%;
+        text-align: left;
+        align-self: flex-end;
+        padding-right: 4%;
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    
+    .point-markers__bullet-points-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 4%;
+        gap: 20px;
+    }
+    
+    .point-markers__bullet-point{
+        font-size: 14px;
+        width: 39%; 
+        height: 49%;
+        color: white;
+    }
+}
