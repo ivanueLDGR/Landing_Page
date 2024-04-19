@@ -153,12 +153,12 @@
         justify-content: space-evenly;
         padding: 0 4%;
         gap: 20px;
+        margin-bottom: 20px;
     }
     
     .point-markers__bullet-point{
         font-size: 14px;
         width: 39%; 
-        height: 49%;
         color: white;
     }
 }
