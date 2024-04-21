@@ -2,6 +2,7 @@
     .point-markers{
         display: flex;
         background-color: rgb(43, 43, 61);
+        /* transform: skew(0,  2deg); */
     }
     
     .point-markers__left-wrapper{
@@ -11,6 +12,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        /* transform: skew(0, -2deg) */
     }
     
     .point-markers__header{
@@ -39,6 +41,7 @@
         margin-top: 10px;
         margin-right: 4%;
         padding-left: 6%;
+        /* transform: skew(0, -2deg) */
     }
     
     .point-markers__bullet-point{
