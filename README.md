@@ -4,4 +4,4 @@ Learning project, building a landing page visually similar to a template
 Design from Law Firm at https://dribbble.com/shots/23916449-Law-Firm-Landing-Page
 Images from https://unsplash.com/
 
-![landing page](https://ivanueldgr.github.io/Landing_Page/)
+<img src="relative/path/in/repository/to/image.svg"/>
