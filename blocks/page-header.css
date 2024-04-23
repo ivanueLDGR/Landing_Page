@@ -116,8 +116,9 @@
     .page-header__navbar-link{
         padding: 3px 3px;
         text-decoration: none;
+        color: white;
     }
-    
+
     .page-header__navbar-link:visited{
         color: white;
     }
@@ -206,6 +207,7 @@
     .page-header__navbar-link{
         padding: 3px 3px;
         text-decoration: none;
+        color: white;
     }
     
     .page-header__navbar-link:visited{
