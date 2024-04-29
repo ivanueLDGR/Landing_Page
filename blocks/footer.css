@@ -1,13 +1,16 @@
 .footer{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: white;
     background-color: rgb(43, 43, 61);
     font-size: 20px;
+    padding: 20px 0;
 }
 
 .footer__my-contact{
     display: block;
-    padding: 20px;
+    padding: 2px, 2%;
 }
 
 .footer__my-contact-link{
